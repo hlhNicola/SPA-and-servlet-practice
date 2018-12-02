@@ -20,7 +20,7 @@ public class SqServlet extends HttpServlet {
 		
 		for(Cookie c : cookies) {
 			if(c.getName().equals("k")) {
-				k = Integer.parseInt(c.getValue());
+				k = Integer parseInt(c.getValue());
 			}		}
 		
 		k = k * k;

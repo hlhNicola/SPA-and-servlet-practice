@@ -17,12 +17,9 @@ public class AddServlet extends HttpServlet{
 		int j = Integer.parseInt(req.getParameter("num2"));
 		
 		int k = i + j;
-		
+		// Cookie
 		Cookie cookie = new Cookie("k", k + "");
 		res.addCookie(cookie);
-		
-		res.sendRedirect("sq");
-		
 //		res.sendRedirect("sq?k=" + k); // rewrite URL and give the available params to other servlet, but it is not good when deal with multible servlets.
 		
 //	//	req.setAttribute("k", k); // one way to transfer data from one servlet to another servlet

@@ -17,7 +17,7 @@ public class AddServlet extends HttpServlet{
 		int j = Integer.parseInt(req.getParameter("num2"));
 		
 		int k = i + j;
-		
+		// Cookie
 		Cookie cookie = new Cookie("k", k + "");
 		res.addCookie(cookie);
 		

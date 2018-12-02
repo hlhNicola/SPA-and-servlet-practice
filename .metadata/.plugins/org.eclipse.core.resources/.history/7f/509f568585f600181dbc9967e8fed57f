@@ -19,9 +19,9 @@ public class SqServlet extends HttpServlet {
 		Cookie cookies[] = req.getCookies();
 		
 		for(Cookie c : cookies) {
-			if(c.getName().equals("k")) {
-				k = Integer.parseInt(c.getValue());
-			}		}
+			if(c.getName().equals("k"));
+			k = Integer.parseInt(c.getValue());
+		}
 		
 		k = k * k;
 		
