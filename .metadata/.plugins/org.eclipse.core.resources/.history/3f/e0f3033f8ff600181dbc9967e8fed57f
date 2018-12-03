@@ -3,11 +3,6 @@
   <servlet>
   	<servlet-name>abc</servlet-name>
   	<servlet-class>com.telusko.MyServlet</servlet-class>
-  	
-  	<init-param>
-  		<param-name>name</param-name>
-  		<param-value>Sukesh</param-value>
-  	</init-param>
   </servlet>
   
 <!--   <servlet>
@@ -30,8 +25,7 @@
   </servlet-mapping>  -->
   
   
-<!-- following are some initial value (try to understand servlet config and servlet context)  --> 
- 
+<!-- following are some initial value (try to understand servlet config and servlet context)  -->  
 	<servlet-mapping>
 		<servlet-name>abc</servlet-name>
 		<url-pattern>/home</url-pattern>
@@ -44,6 +38,5 @@
    <context-param>
   	<param-name>Phone</param-name>
   	<param-value>Samsung</param-value>	
-  </context-param>
-  	
+  </context-param>	
 </web-app>

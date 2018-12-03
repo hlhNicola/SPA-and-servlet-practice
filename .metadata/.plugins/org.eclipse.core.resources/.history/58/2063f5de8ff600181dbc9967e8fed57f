@@ -3,11 +3,6 @@
   <servlet>
   	<servlet-name>abc</servlet-name>
   	<servlet-class>com.telusko.MyServlet</servlet-class>
-  	
-  	<init-param>
-  		<param-name>name</param-name>
-  		<param-value>Sukesh</param-value>
-  	</init-param>
   </servlet>
   
 <!--   <servlet>
